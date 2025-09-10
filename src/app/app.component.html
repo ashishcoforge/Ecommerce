@@ -1,5 +1,12 @@
 <app-navbar></app-navbar>
 <app-hero-banner></app-hero-banner>
+<section class="feature-section">
+  <div class="feature-cards-container">
+    @for (item of [1,2,3]; track item) {
+    <app-feature-card></app-feature-card>
+    }
+  </div>
+</section>
 <section class="category-section">
   <header>
     <h2>Shop By Categories</h2>
@@ -20,6 +27,15 @@
     @for (item of [1,2,3,4]; track item) {
     <app-product-card></app-product-card>
     }
+  </div>
+</section>
+<section class="newsletter">
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni facere
+    adipisci blanditiis? Exercitationem, officiis.
+  </p>
+  <div>
+    <input type="text" placeholder="Email Address" /><app-button></app-button>
   </div>
 </section>
 <app-footer></app-footer>

@@ -5,6 +5,8 @@ import { HeroBannerComponent } from './hero-banner/hero-banner.component';
 import { ProductCardComponent } from './product-card/product-card.component';
 import { CategoryCardComponent } from './category-card/category-card.component';
 import { FooterComponent } from './footer/footer.component';
+import { FeatureCardComponent } from './feature-card/feature-card.component';
+import { ButtonComponent } from './button/button.component';
 
 @Component({
   selector: 'app-root',
@@ -13,9 +15,11 @@ import { FooterComponent } from './footer/footer.component';
     RouterOutlet,
     NavbarComponent,
     HeroBannerComponent,
+    FeatureCardComponent,
     ProductCardComponent,
     CategoryCardComponent,
     FooterComponent,
+    ButtonComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
