@@ -1,0 +1,50 @@
+@import "./../../variables.scss";
+
+nav {
+  padding: 1rem 5rem;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+
+    h4 {
+      font-size: 1.25rem;
+    }
+  }
+
+  .menu-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+
+    img {
+      width: 2rem;
+    }
+
+    li {
+      list-style: none;
+    }
+
+    .menu-list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      font-weight: 500;
+
+      li {
+        font-family: "Inter", sans-serif;
+      }
+    }
+
+    .user-menu {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+    }
+  }
+}

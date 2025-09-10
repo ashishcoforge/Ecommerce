@@ -1,0 +1,25 @@
+@import "../variables.scss";
+
+.new-arrivals,
+.category-section {
+  padding: 2rem 5rem;
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    a {
+      color: $dark-grey;
+    }
+  }
+
+  .product-container,
+  .category-card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+  }
+}
