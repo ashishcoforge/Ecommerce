@@ -6,7 +6,7 @@ import { ProductCardComponent } from './product-card/product-card.component';
 import { CategoryCardComponent } from './category-card/category-card.component';
 import { FooterComponent } from './footer/footer.component';
 import { FeatureCardComponent } from './feature-card/feature-card.component';
-import { ButtonComponent } from './button/button.component';
+import { NewsletterComponent } from './newsletter/newsletter.component';
 
 @Component({
   selector: 'app-root',
@@ -18,8 +18,8 @@ import { ButtonComponent } from './button/button.component';
     FeatureCardComponent,
     ProductCardComponent,
     CategoryCardComponent,
+    NewsletterComponent,
     FooterComponent,
-    ButtonComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
